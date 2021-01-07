@@ -50,7 +50,6 @@
     z-index:-1;
     transition: 0.5s;
 }
-}
 .banner-btn a:hover span{
     width:100%;
 
@@ -434,6 +433,7 @@ hr{
     top: 40%;
     transform: translateX(-50%,-50%);
 }
+
 .socialmedia-links{
     text-align: center;
 
@@ -466,10 +466,11 @@ hr{
         flex-basis: 100%;
         font-weight: 14px;
     }
-   .footer-img{
+    .footer-img{
         top:25%;
         left:20%;
         
     }
 
-  }
+    
+    }

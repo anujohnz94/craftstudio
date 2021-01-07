@@ -33,7 +33,7 @@
     display:inline-block;
     margin: 0 10px;
     padding:12px  0;
-    color: rgb(5, 17, 1);
+    color: rgb(243, 243, 243);
     border: .5px solid #fff ;
     position: relative;
     z-index:1;
@@ -46,9 +46,10 @@
     position:absolute;
     top: 0;
     left: 0;
-    background: white;
+    background: rgb(6, 67, 16);
     z-index:-1;
     transition: 0.5s;
+}
 }
 .banner-btn a:hover span{
     width:100%;
@@ -429,11 +430,10 @@ hr{
     max-width: 300px;
     opacity: 0.1;
     position: absolute;
-    left:40%;
+    left:35%;
     top: 40%;
     transform: translateX(-50%,-50%);
 }
-
 .socialmedia-links{
     text-align: center;
 
@@ -466,8 +466,9 @@ hr{
         flex-basis: 100%;
         font-weight: 14px;
     }
-    .footer-img{
+   .footer-img{
         top:25%;
+        left:20%;
         
     }
 

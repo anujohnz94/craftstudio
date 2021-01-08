@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>more CARDS</title>
+      <link rel="stylesheet" href="style2.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+</head>
+<body>
+    <div id="sideNav">
+        <nav>
+              <ul>
+                   
+                    <li><a href="#service">CARD</a></li>
+                    <li><a href="#next">GIFT</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                   
+              </ul>
+        </nav>
+  </div>
+  <div id= "menuBtn">
+        <img src="images/menu.png" id ="menu">
+  
+  </div>
+   
+    <!--SERVICE-->
+
+<section id ="service">
+    <div class ="title-text">
+          <p>CATAGORIES</p>
+          <h1>CARDS </h1>      
+          </div>
+          <div class="service-box">  
+                  <div class="single-service">
+                     <img src="images/hat.jpg" width="500" height="400">
+                  </div>
+
+                  <div class="single-service">
+                     <img src="images/snow.jpg" width="500" height="400">         
+                  </div>   
+
+                  <div class="single-service">
+                     <img src="images/cake card.jpeg" width="500" height="400">                  
+                 </div> 
+                   
+                <div class="single-service">
+                   <img src="images/facemask.jpg" width="500" height="400">  
+                </div>
+          </div>
+
+</section>
+
+<!--nextservice-->
+
+<section id ="next">
+    <div class ="title-text">
+          
+          <h1>GIFTS</h1>      
+          </div>
+          <div class="next-box">  
+                  <div class="single-next">
+                     <img src="images/SMILEY.jpeg" width="500" height="400">
+                    
+                  </div>
+                <div class="single-next">
+                   <img src="images/xmaspapa.jpeg" width="500" height="400">
+                </div>   
+    
+                <div class="single-next">
+                   <img src="images/origamiwindow.jpeg" width="500" height="400">
+                </div> 
+                   
+                <div class="single-next">
+                   <img src="images/EGG  COUPLE.jpeg" width="500" height="400">   
+                </div>
+          </div>
+
+</section>
+<section id="pages">
+      <div class ="pages-text">
+            
+            <div class="pages-btn">
+                  <a href="index.html"><span></span>HOME</a>
+            </div>
+            </div>
+      </div>
+</section>
+
+
+<script>
+ var menuBtn = document.getElementById("menuBtn")
+ var sideNav = document.getElementById("sideNav")
+ var menu = document.getElementById("menu")
+
+ sideNav.style.right="-250px";
+menuBtn.onclick = function(){
+       if(sideNav.style.right == "-250px"){
+             sideNav.style.right = "0";
+             menu.src="images/close.png";
+       }
+      else{
+            sideNav.style.right ="-250px";
+            menu.src="images/menu.png";
+       }
+}
+
+// All animations will take exactly 500ms
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+</script>      
+</body>
+
+</html>
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right="-250px";
+        menuBtn.onclick = function(){
+       if(sideNav.style.right == "-250px"){
+             sideNav.style.right = "0";
+             menu.src="images/close.png";
+       }
+      else{
+            sideNav.style.right ="-250px";
+            menu.src="images/menu.png";
+       }
+}
+       
+       // All animations will take exactly 500ms
+       var scroll = new SmoothScroll('a[href*="#"]', {
+           speed: 1000,
+           speedAsDuration: true
+       });
+       </script>      
+       </body>
+       
+       </html>

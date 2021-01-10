@@ -20,7 +20,7 @@
     font-family: 'Langar', cursive;
 }    
 .banner-text p{
-    font-size: 10px ;
+    font-size: 20px ;
     font-style: italic;
 }    
 .banner-btn {
@@ -92,6 +92,9 @@ nav ul li a{
 @media screen and (max-width: 770px){
     .banner-text h1{
         font-size: 44px ;
+    } 
+    .banner-text p{
+        font-size: 20px ;
     } 
     .banner-btn a{
         display:block;

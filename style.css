@@ -93,6 +93,9 @@ nav ul li a{
     .banner-text h1{
         font-size: 54px ;
     } 
+    .banner-text p{
+        font-size: 20px ;
+    } 
     .banner-btn a{
         display:block;
         margin: 20px auto;   

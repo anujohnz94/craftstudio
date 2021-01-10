@@ -17,11 +17,11 @@
     padding-top: 180px;
 }
 .banner-text h1{
-    font-size: 130px ;
+    font-size: 130rem;
     font-family: 'Langar', cursive;
 }    
 .banner-text p{
-    font-size: 20px ;
+    font-size: 20rem ;
     font-style: italic;
 }    
 .banner-btn {
@@ -92,7 +92,7 @@ nav ul li a{
 }
 @media screen and (max-width: 770px){
     .banner-text h1{
-        font-size: 44px ;
+        font-size: 44rem ;
     } 
     .banner-btn a{
         display:block;
@@ -116,7 +116,7 @@ nav ul li a{
 }
 .title-text p{
     margin: 20px;
-    font-size: 20px;
+    font-size: 20rem;
     color: rgb(65, 54, 7);
     font-weight: bold;
     position: relative;
@@ -137,7 +137,7 @@ nav ul li a{
     border-bottom-right-radius: 35px;
 }
 .title-text h1{
-    font-size: 40px;
+    font-size: 40rem;
 
 
 }
@@ -176,7 +176,7 @@ nav ul li a{
 .feature-icon .fa{
     width: 50px;
     height: 50px;
-    font-size:30px;
+    font-size:30rem;
     line-height: 50px;
     border-radius: 8px;
     color: #031608;
@@ -191,7 +191,7 @@ nav ul li a{
 
 @media screen and (max-width: 770px){
     .title-text h1{
-        font-size: 30px;
+        font-size: 30rem;
     
     
     }
@@ -273,7 +273,7 @@ hr{
     width: 60%;
 }
 .service-desc p{
-    font-size: 14px;
+    font-size: 14rem;
 }
 .single-service:hover .service-desc{
     bottom:40%;
@@ -287,7 +287,7 @@ hr{
 
     }
     .service-desc p{
-        font-size: 12px;
+        font-size: 12rem;
     
 }
 hr{
@@ -363,7 +363,7 @@ hr{
     width: 60%;
 }
 .next-desc p{
-    font-size: 14px;
+    font-size: 14rem;
 }
 .single-next:hover .next-desc{
     bottom:40%;
@@ -377,7 +377,7 @@ hr{
 
     }
     .next-desc p{
-        font-size: 12px;
+        font-size: 12rem;
     
 }
 hr{
@@ -402,11 +402,11 @@ hr{
     padding-top: 10px;
 }
 .page-text h1{
-    font-size: 130px ;
+    font-size: 130rem ;
     font-family: 'Langar', cursive;
 }    
 .page-text p{
-    font-size: 20px ;
+    font-size: 20rem ;
     font-style: italic;
 }    
 .page-btn {
@@ -470,7 +470,7 @@ hr{
    line-height: 35px;
 }
 .footer-left .fa,.footer-right .fa{
-    font-size: 20px;
+    font-size: 20rem;
     color: rgb(10, 92, 23);
     margin: 10px;
 }
@@ -507,7 +507,7 @@ hr{
 }
 
 .socialmedia-links p{
-    font-size: 12px;
+    font-size: 12rem;
     margin-top:20px;
      
 }

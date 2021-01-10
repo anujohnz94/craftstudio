@@ -20,7 +20,7 @@
     font-family: 'Langar', cursive;
 }    
 .banner-text p{
-    font-size: 25px ;
+    font-size: 20px ;
     font-style: italic;
 }    
 .banner-btn {
@@ -173,7 +173,7 @@ nav ul li a{
     display: flex;
     align-items: center;
     margin-bottom: 6px;
-    font-size: 20px;
+    font-size: 15px;
 }
 .feature-icon .fa{
     width: 50px;
